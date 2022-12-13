@@ -1,0 +1,21 @@
+.Main{
+text-align:center;
+font-size:20;
+font-weight:bold;
+}
+.m2{
+font-size: large;
+border:3px solid darkgreen;
+}
+.n1{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: cursive;
+    border-width: medium;
+    margin:0px 3px;
+    border-radius:8px;
+    background-color: blue;
+    color: white;
+    font-size: 18;
+    font-weight: bold;
+}

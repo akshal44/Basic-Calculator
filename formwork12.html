@@ -1,0 +1,56 @@
+<html>
+<head>
+<link href="style2.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width">
+<title>Calculate Factorial</title>
+<script>
+function Addition()
+{
+var n=document.f1.txtnum1.value;
+var m=document.f1.txtnum2.value;
+var sum=parseInt(n+m);
+a=+n;
+b=+m
+s=a+b;
+alert("Addition is:"+s);
+}
+function Subtraction()
+{
+var n=document.f1.txtnum1.value;
+var m=document.f1.txtnum2.value;
+var s=n-m;
+alert("Subtraction is:"+s);
+}
+function Multiplication()
+{
+var n=document.f1.txtnum1.value;
+var m=document.f1.txtnum2.value;
+var m=n*m;
+alert("Multiplication is:"+m);
+}
+function Division()
+{
+var n=document.f1.txtnum1.value;
+var m=document.f1.txtnum2.value;
+var d=n/m;
+alert("Division is:"+d);
+}
+</script>
+</head>
+<body>
+
+<form name="f1" class="Main">
+<h1> Welcome to Basic Calculator</h1>
+First num: <input type:"text" name="txtnum1" class="m2">
+Second num: <input type:"text" name="txtnum2" class="m2">
+<br>
+<br>
+<div class="s1">
+<input type="Button" value="Addition" onclick="Addition()" class="n1" >
+<input type="Button" value="Subtraction" onclick="Subtraction()" class="n1">
+<input type="Button" value="Multiplication" onclick="Multiplication()" class="n1">
+<input type="Button" value="Division" onclick="Division()" class="n1">
+</div>
+</form>
+</body>
+</html>
